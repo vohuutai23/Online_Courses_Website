@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon server.js",
+    "start": "node dist/server.js",
     "build": "esbuild server.js --bundle --platform=node --outfile=dist/server.js"
   },
   "author": "",
