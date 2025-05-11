@@ -4,7 +4,7 @@ import auth from "../middlewares/auth.js";
 import {
   getAllCourseStasticsAdmin,
   getAllCourseStasticsInstructor,
-} from "../controllers/InvoiceItemsController.js";
+} from "../controllers/invoiceItemsController.js";
 
 const router = express.Router();
 
